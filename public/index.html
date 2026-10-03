@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="../src/css/main.css">
+    <script type="module" src="https://unpkg.com/ionicons@8.0.13/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@8.0.13/dist/ionicons/ionicons.js"></script>
+    <script src="main.js"></script>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <form>
+                <div class="logo-top">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56">
+                        <rect width="56" height="56" rx="14" fill="#6AA6FF"/>
+                        <path d="M12 18 L20 38 L28 18 L36 38 L44 18" 
+                        stroke="white" stroke-width="4" stroke-linecap="round" 
+                        stroke-linejoin="round" fill="none"/>
+                    </svg>
+                </div>
+                <div class="welcome">
+                    <h1>Bem Vindo(a) De Volta!</h1>
+                    <h4>Faça o Login da sua conta.</h4>
+                </div>
+                <div class="login">
+                    <label for="username">Nome</label>
+                    <div class="input-wrapper">
+                        <!--<ion-icon name="person-outline"></ion-icon>-->
+                        <input type="text" id="username" placeholder="Coloque seu nome" required>
+                    </div>
+
+                    <label for="password">Senha</label>
+                    <div class="input-wrapper">
+                        <!--<ion-icon name="lock-closed-outline"></ion-icon>-->
+                        <input type="password" id="password" placeholder="Coloque sua senha" required>
+                    </div>
+                </div>
+                <div class="options">
+                    <div class="remeber">
+                        <input type="checkbox" id="remember" name="remember">
+                        <label for="remember">Lembrar-me</label>
+                    </div>
+                    
+                    <h5>
+                        <a href="#">
+                            Esqueceu sua senha?
+                        </a>
+                    </h5>
+                </div>
+                <button type="submit" class="btn-logar">Entrar</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>

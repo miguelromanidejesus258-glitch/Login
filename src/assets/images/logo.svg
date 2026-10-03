@@ -1,0 +1,12 @@
+<svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="56" height="56" rx="16" fill="url(#blue_grad)"/>
+  <path d="M14 18.5C14 18.5 15.2 17 17.5 17C19.8 17 20.8 18.5 20.8 18.5L27.2 37.5L28 39.5L28.8 37.5L35.2 18.5C35.2 18.5 36.2 17 38.5 17C40.8 17 42 18.5 42 18.5L42 18.5C42 18.5 42 19.5 41.5 21L34.5 39.5C33.5 41.5 31 43 28 43C25 43 22.5 41.5 21.5 39.5L14.5 21C14 19.5 14 18.5 14 18.5Z" 
+  fill="white" fill-opacity="1"
+  transform="translate(0, 2) scale(1)"/>
+  <defs>
+    <linearGradient id="blue_grad" x1="0" y1="0" x2="56" y2="56" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6AA6FF"/>
+      <stop offset="1" stop-color="#3B82F6"/>
+    </linearGradient>
+  </defs>
+</svg>
